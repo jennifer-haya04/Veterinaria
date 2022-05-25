@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteVet.master.cs" Inherits="Veterinaria.SiteVet" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="assets/css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="nav-image">
+                <img class="img-logo" src="assets/img/logo.png" />
+            <nav class="navegacion">
+                <a href="/">Inicio</a>
+                <a href="">Servicios</a>
+                <a href="">Mis Veterinarios</a>
+                <a href="">Nuestros Clientes</a>
+                <a href="">Tienda</a>
+                <a href="">Iniciar Sesión</a>
+            </nav>
+            </div>
+            
+        </div>
+    </header>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <footer class="footer">
+        <div>
+            <p>
+                Todos los derechos reservados -  &copy; GRUPO 1
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

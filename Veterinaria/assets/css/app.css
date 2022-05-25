@@ -1,0 +1,56 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*Global*/
+.contenedor {
+    width: min(90%, 1200px);
+    margin: auto;
+}
+
+/*a*/
+a {
+    text-decoration: none;
+}
+
+/*Header*/
+.header {
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 15rem;
+    margin-bottom: 1rem;
+}
+
+.img-logo {
+    width: 15rem;
+}
+
+.nav-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacion a {
+    font-size: 2.2rem;
+    color: darkblue;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+/*Footer*/
+.footer {
+    background-color: black;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
